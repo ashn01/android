@@ -1,3 +1,3 @@
 # android
 
-This repository will store what I have done in class.
+This repository stores what I have done in class.
