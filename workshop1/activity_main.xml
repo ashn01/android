@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.youngmin_mac.assignment1.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@android:color/black"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Youngmin Kim"
+            android:textColor="#00ffff"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pwd_block2"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/pwd_block3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <EditText
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:hint="username"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:background="#0000ff"
+            android:gravity="center"
+            android:text="facebook"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pwd_block3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/pwd_block4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwd_block2">
+
+        <EditText
+            android:id="@+id/fld_pwd3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#ffff00"
+            android:gravity="center"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login3"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:background="#ff00ff"
+            android:gravity="center"
+            android:text="TWITER"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/pwd_block4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="260dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pwd_block3">
+
+        <Button
+            android:id="@+id/btn_login4"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="#00ff00"
+            android:gravity="center"
+            android:text="amazon"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login5"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:background="#ff0000"
+            android:gravity="center"
+            android:text="google"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
