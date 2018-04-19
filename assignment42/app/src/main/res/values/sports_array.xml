@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports_array">
+        <item> </item>
+        <item>Baseball</item>
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>
